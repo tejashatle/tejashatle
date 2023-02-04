@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tejashatle/static/css/main.31d6cfe0.css",
+    "main.js": "/tejashatle/static/js/main.929ac706.js",
+    "static/js/787.4e890dc6.chunk.js": "/tejashatle/static/js/787.4e890dc6.chunk.js",
+    "index.html": "/tejashatle/index.html",
+    "main.929ac706.js.map": "/tejashatle/static/js/main.929ac706.js.map",
+    "787.4e890dc6.chunk.js.map": "/tejashatle/static/js/787.4e890dc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.929ac706.js"
+  ]
+}
