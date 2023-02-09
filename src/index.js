@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NavigationBar from './Components/NavigationBar';
+import About from './Components/About';
+import TechStack from './Components/Techstack';
+import MyWork from './Components/MyWork';
+import Contact from './Components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NavigationBar />
+    <About/>
+    <TechStack/>
+    <MyWork/>
+    <Contact/>
   </React.StrictMode>
 );
 

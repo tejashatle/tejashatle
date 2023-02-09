@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+#root{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1F1F1;
+}
+
+.nav-fg .navbar-nav a.active{
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-fg .navbar-nav a{
+    color: #6D6D6D;
+}
+
+.image-dimensions{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: auto;
+    width: auto;
+
+}
+
+.about-content{
+    margin-top: 200px;
+}
+
+.about-content .about-text,
+.techstack-text,
+.mywork-text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.techstack-content .techstack-heading h5,
+.mywork-content .mywork-heading h5,
+.contact-content .contact-heading h5{
+    margin-bottom: 10px;
+    width: fit-content;
+    border-bottom: 2px solid #6D6D6D;
+}
+.tech-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.technology{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #6D6D6D;
+}
+
+.technology .name{
+    margin-left: 10px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.soap-ui-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.visit-btn Button{
+    width: 80px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.visit-btn Button:hover{
+   background-color: #212529;
+}
+
