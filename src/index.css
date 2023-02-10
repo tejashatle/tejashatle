@@ -92,3 +92,15 @@
    background-color: #212529;
 }
 
+.get-in-touch-upper,
+.get-in-touch-bottom{
+    margin-left: 100px;
+}
+
+.social-icons a{
+    color: #212529;
+}
+
+.contact svg{
+    font-size: 25px;
+}

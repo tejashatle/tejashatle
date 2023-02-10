@@ -15,7 +15,7 @@ function MyWork() {
             <Col xs={6}>
               <div className="work-so-far">
                 <div>
-                  <Card style={{ width: "18rem", backgroundColor: "#fff" }}>
+                  <Card style={{ backgroundColor: "#fff" }}>
                     <Card.Img variant="top" src={codetej} />
                     <Card.Body>
                       {/* Title and Live btn */}
@@ -35,7 +35,7 @@ function MyWork() {
                           </div>
                         </Col>
                         <Col xs={6} align="right">
-                          <Button variant="dark">
+                        <a href="https://codetej.in/"><Button variant="dark">
                             Visit{" "}
                             <span
                               style={{
@@ -48,7 +48,7 @@ function MyWork() {
                                 color="white"
                               />
                             </span>
-                          </Button>
+                          </Button></a>
                         </Col>
                       </Row>
                     </Card.Body>
@@ -59,11 +59,11 @@ function MyWork() {
             <Col xs={6}>
               <div className="work-so-far">
                 <div>
-                  <Card style={{ width: "18rem", backgroundColor: "#fff" }}>
+                  <Card style={{ backgroundColor: "#fff" }}>
                     <Card.Img variant="top" src={kokanspecial} />
                     <Card.Body>
                       {/* Title and Live btn */}
-                      <Card.Title className="card-title">Codetej</Card.Title>
+                      <Card.Title className="card-title">KokanSpecial</Card.Title>
 
                       <Row className="visit-btn">
                         <Col xs={6}>
@@ -79,7 +79,7 @@ function MyWork() {
                           </div>
                         </Col>
                         <Col xs={6} align="right">
-                          <Button variant="dark">
+                        <a href="https://kokanspecial.github.io/"><Button variant="dark">
                             Visit{" "}
                             <span
                               style={{
@@ -92,7 +92,7 @@ function MyWork() {
                                 color="white"
                               />
                             </span>
-                          </Button>
+                          </Button></a>
                         </Col>
                       </Row>
                     </Card.Body>
