@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 function About() {
     return(
-        <Container>
+        <Container id="about">
             <Row>
                 <Col xs={6}>
                     <Image src={avtar} className="image-dimensions"/>

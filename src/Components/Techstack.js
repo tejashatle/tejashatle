@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 
 function TechStack() {
   return (
-    <Container style={{marginTop: "100px"}}>
+    <Container style={{marginTop: "100px"}} id='tech-stack'>
       <Row>
         <Col xs={6}>
           <div className="techstack-content">

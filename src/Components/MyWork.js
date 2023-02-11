@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 
 function MyWork() {
   return (
-    <Container style={{marginTop: "100px"}}>
+    <Container style={{marginTop: "100px"}} id='my-work'>
       <Row>
         <Col xs={6}>
           <Row>

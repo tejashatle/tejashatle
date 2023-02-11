@@ -8,6 +8,7 @@ function Contact() {
   return (
     <Container
       className="contact"
+      id="contact"
       style={{ marginTop: "100px", border: "2px solid #000", padding: "40px" }}
     >
       <Row>

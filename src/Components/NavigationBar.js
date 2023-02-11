@@ -12,10 +12,10 @@ function NavigationBar() {
             <Nav.Link style={{ fontWeight: "bolder", color: "#000"}} >TEJAS HATLE</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link className='active'>About</Nav.Link>
-            <Nav.Link >Tech Stack</Nav.Link>
-            <Nav.Link >My Work</Nav.Link>
-            <Nav.Link >Contact</Nav.Link>
+            <Nav.Link href='#about'>About</Nav.Link>
+            <Nav.Link href='#tech-stack'>Tech Stack</Nav.Link>
+            <Nav.Link href='#my-work'>My Work</Nav.Link>
+            <Nav.Link href='#contact'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
