@@ -104,3 +104,27 @@
 .contact svg{
     font-size: 25px;
 }
+
+.footer{
+    margin-top: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    color: white;
+    background-color: #000000;
+}
+
+.footer span{
+    display: inherit;
+    align-items: center;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.footer span svg{
+    font-size: 17px;
+    margin: 0px 5px 0px 5px;
+}

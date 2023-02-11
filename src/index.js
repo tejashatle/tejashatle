@@ -7,6 +7,7 @@ import About from './Components/About';
 import TechStack from './Components/Techstack';
 import MyWork from './Components/MyWork';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <TechStack/>
     <MyWork/>
     <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 
