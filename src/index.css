@@ -128,3 +128,12 @@
     font-size: 17px;
     margin: 0px 5px 0px 5px;
 }
+
+.toast-header{
+    border-radius: 5px;
+    border-bottom: none;
+}
+
+.toast-header .btn-close{
+    margin-left: 80px;
+}
