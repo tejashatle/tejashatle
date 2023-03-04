@@ -1,4 +1,4 @@
-import { Container, Row, Toast } from "react-bootstrap";
+import { Container, Row, Toast, ToastContainer } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
@@ -16,23 +16,20 @@ function Contact(e) {
   function sendEmail(e) {
     e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
-    emailjs.sendForm('service_p8jiks2', 'template_u25hn7f', form.current, 'HDZOiVaGNj7Qk_Ia4', {
-      from_name: "Sender",
-      to_name: "Tejas",
-      message: "Hey, How are you",
-    })
+    emailjs.sendForm('service_p8jiks2', 'template_u25hn7f', form.current, 'HDZOiVaGNj7Qk_Ia4')
       .then((result) => {
         setAlert({
           show: true,
-          message: 'Your information has been sent!',
+          message: 'Thanks for reaching out to me, will reply you soon. Thanks!',
           success: true,
       });
+        document.getElementById("contactForm").reset();
           console.log("Mail sent"); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
       }, (error) => {
 
         setAlert({
           show: true,
-          message: 'Your information could not be sent!',
+          message: 'Oops! Something went wrong, try reaching out on social media. Thanks!',
           success: false,
       });
           console.log(error.text);
@@ -47,9 +44,11 @@ function Contact(e) {
       id="contact"
       style={{ marginTop: "100px", border: "2px solid #000", padding: "40px" }}
     >
-        <Toast show={alert.show} onClose={toggleToast}  bg={alert.success ? 'success' : "danger"} >
-          <Toast.Header>{alert.message} {alert.show}</Toast.Header>
+      <ToastContainer position="top-start" containerPosition="fixed" style={{ marginTop: "60px", marginLeft: "40px" }}>
+        <Toast show={alert.show} onClose={toggleToast}  bg={alert.success ? 'success' : "danger"} delay={3000} autohide>
+          <Toast.Header closeButton={false}>{alert.message} {alert.show}</Toast.Header>
         </Toast>
+      </ToastContainer>
       <Row>
         <Col>
           <div className="contact-content">
@@ -59,7 +58,7 @@ function Contact(e) {
               </h5>
             </div>
             <div className="contact-form">
-              <Form style={{ marginLeft: "100px" }} ref={form} onSubmit={sendEmail}>
+              <Form style={{ marginLeft: "100px" }} ref={form} onSubmit={sendEmail} id="contactForm" >
                 <Col xs={8}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control type="text" placeholder="Your Name" name="from_name"/>
