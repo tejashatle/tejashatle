@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tejashatle/static/css/main.e952bfab.css",
-    "main.js": "/tejashatle/static/js/main.f629dd48.js",
+    "main.css": "/tejashatle/static/css/main.d51d2d33.css",
+    "main.js": "/tejashatle/static/js/main.94f10219.js",
     "static/js/787.4e890dc6.chunk.js": "/tejashatle/static/js/787.4e890dc6.chunk.js",
     "static/media/kokan-special.png": "/tejashatle/static/media/kokan-special.4184c3443fcf55f39cce.png",
     "static/media/codetej.png": "/tejashatle/static/media/codetej.d9e356ec052f72dab315.png",
-    "static/media/avtar-3.png": "/tejashatle/static/media/avtar-3.f0ab93c96d625042bccb.png",
+    "static/media/avtar-3.png": "/tejashatle/static/media/avtar-3.933abc94b14cd774b1fb.png",
     "index.html": "/tejashatle/index.html",
-    "main.e952bfab.css.map": "/tejashatle/static/css/main.e952bfab.css.map",
-    "main.f629dd48.js.map": "/tejashatle/static/js/main.f629dd48.js.map",
+    "main.d51d2d33.css.map": "/tejashatle/static/css/main.d51d2d33.css.map",
+    "main.94f10219.js.map": "/tejashatle/static/js/main.94f10219.js.map",
     "787.4e890dc6.chunk.js.map": "/tejashatle/static/js/787.4e890dc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e952bfab.css",
-    "static/js/main.f629dd48.js"
+    "static/css/main.d51d2d33.css",
+    "static/js/main.94f10219.js"
   ]
 }
