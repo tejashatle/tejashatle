@@ -7,13 +7,13 @@ function About() {
     return(
         <Container id="about">
             <Row>
-                <Col xs={6}>
-                    <Image src={avtar} className="image-dimensions"/>
+                <Col sm={6}>
+                    <Image src={avtar} className="image-dimensions" />
                 </Col>
-                <Col xs={6}>
+                <Col sm={6}>
                     <div className="about-content">
                         <div className="about-heading">
-                            <h1 style={{ fontSize: "5rem"}}>Hi There!</h1>
+                            <span>Hi There!</span>
                         </div>
                         <div className="about-text">
                             <p>

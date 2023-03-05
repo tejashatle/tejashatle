@@ -24,43 +24,189 @@
 
 }
 
-.about-content{
-    margin-top: 200px;
+
+@media (min-width: 340px){
+    .image-dimensions { 
+        margin-left: 40px;
+    }
+
+    .about-content{
+        margin-top: 50px;
+    }
+
+    .about-content .about-heading span{
+        font-size: 2rem;
+    }
+
+    .about-content .about-text,
+    .techstack-text,
+    .mywork-text{
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    .techstack-content .techstack-heading,
+    .mywork-content .mywork-heading,
+    .contact-content .contact-heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .techstack-content .techstack-heading h5,
+    .mywork-content .mywork-heading h5,
+    .contact-content .contact-heading h5{
+        margin-bottom: 10px;
+        width: fit-content;
+        border-bottom: 2px solid #6D6D6D;
+    }
+
+    .tech-container{
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+    }
+
+    
+    .technology{
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #6D6D6D;
+    }
+    
+    #work-so-far{
+        order: 2;
+    }
+
+    #mywork-content{
+        order: 1;
+    }
+
+    .contact-content{
+        margin-top: 30px;
+    }
+
+    #contact{
+        margin: 50px 10px;
+        width: auto;
+    }
+
+    .footer div{
+        font-size: 12px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    
 }
 
-.about-content .about-text,
-.techstack-text,
-.mywork-text{
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 400;
+@media (min-width: 740px){
+    .image-dimensions { 
+        margin-left: 200px;
+    }
+
+    .about-content{
+        margin-top: 200px;
+    }
+
+    .about-content .about-heading span{
+        font-size: 5rem;
+    }
+
+    .about-content .about-text,
+    .techstack-text,
+    .mywork-text{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    .techstack-content .techstack-heading,
+    .mywork-content .mywork-heading,
+    .contact-content .contact-heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .techstack-content .techstack-heading h5,
+    .mywork-content .mywork-heading h5,
+    .contact-content .contact-heading h5{
+        margin-bottom: 10px;
+        width: fit-content;
+        border-bottom: 2px solid #6D6D6D;
+    }
+
+    /* .contact-content .contact-heading h5{
+        margin-right: 300px;
+    } */
+
+    .tech-container{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+   
+    .technology{
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        align-items: center;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #6D6D6D;
+    }
+ 
+    #work-so-far{
+        order: 1;
+    }
+
+    #mywork-content{
+        order: 2;
+    }
+
+    #contact{
+        margin: 100px auto;
+    }
+
+    #contactForm{
+        margin-left: 100px;
+    }
+
+    .footer div{
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
 }
 
+
+/* 
 .techstack-content .techstack-heading h5,
 .mywork-content .mywork-heading h5,
 .contact-content .contact-heading h5{
+    margin-left: 200px;
     margin-bottom: 10px;
     width: fit-content;
     border-bottom: 2px solid #6D6D6D;
-}
-.tech-container{
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-}
-.technology{
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-    align-items: center;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 30px;
-    letter-spacing: 0.01em;
-    color: #6D6D6D;
-}
+} */
+
+/* #contact{
+    margin-top: 100px;
+} */
 
 .technology .name{
     margin-left: 10px;
@@ -92,10 +238,10 @@
    background-color: #212529;
 }
 
-.get-in-touch-upper,
+/* .get-in-touch-upper,
 .get-in-touch-bottom{
     margin-left: 100px;
-}
+} */
 
 .social-icons a{
     color: #212529;
@@ -115,14 +261,7 @@
     background-color: #000000;
 }
 
-.footer span{
-    display: inherit;
-    align-items: center;
-    font-size: 15px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 400;
-}
+
 
 .footer span svg{
     font-size: 17px;

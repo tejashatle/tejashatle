@@ -42,7 +42,7 @@ function Contact(e) {
     <Container
       className="contact"
       id="contact"
-      style={{ marginTop: "100px", border: "2px solid #000", padding: "40px" }}
+      style={{ border: "2px solid #000", padding: "40px" }}
     >
       <ToastContainer position="top-start" containerPosition="fixed" style={{ marginTop: "60px", marginLeft: "40px" }}>
         <Toast show={alert.show} onClose={toggleToast}  bg={alert.success ? 'success' : "danger"} delay={3000} autohide>
@@ -53,28 +53,28 @@ function Contact(e) {
         <Col>
           <div className="contact-content">
             <div className="contact-heading">
-              <h5 style={{ marginLeft: "200px", fontWeight: "bold" }}>
+              <h5 style={{ fontWeight: "bold" }}>
                 Contact Me
               </h5>
             </div>
             <div className="contact-form">
-              <Form style={{ marginLeft: "100px" }} ref={form} onSubmit={sendEmail} id="contactForm" >
-                <Col xs={8}>
+              <Form ref={form} onSubmit={sendEmail} id="contactForm" >
+                <Col sm={8}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control type="text" placeholder="Your Name" name="from_name"/>
                   </Form.Group>
                 </Col>
-                <Col xs={8}>
+                <Col sm={8}>
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control type="email" placeholder="Your Email" name="from_email" />
                   </Form.Group>
                 </Col>
-                <Col xs={8}>
+                <Col sm={8}>
                   <Form.Group className="mb-3" controlId="formBasicSubject">
                     <Form.Control type="text" placeholder="Subject" name="subject"/>
                   </Form.Group>
                 </Col>
-                <Col xs={8}>
+                <Col sm={8}>
                   <Form.Group className="mb-3" controlId="formBasicSubject">
                     <Form.Control
                       as="textarea"
@@ -96,7 +96,7 @@ function Contact(e) {
         <Col>
           <div className="contact-content">
             <div className="contact-heading">
-              <h5 style={{ marginLeft: "100px", fontWeight: "bold" }}>
+              <h5 style={{ fontWeight: "bold" }}>
                 Get In Touch
               </h5>
             </div>
@@ -111,7 +111,7 @@ function Contact(e) {
                 <Col xs={2}>
                   <Icon icon="mdi:email-outline"/>
                 </Col>
-                <Col>tejashatle3@gmail.com</Col>
+                <Col>tejashatle2@gmail.com</Col>
               </Row>
             </div>
 

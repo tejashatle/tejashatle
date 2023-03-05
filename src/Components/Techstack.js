@@ -8,10 +8,10 @@ function TechStack() {
   return (
     <Container style={{marginTop: "100px"}} id='tech-stack'>
       <Row>
-        <Col xs={6}>
+        <Col sm={6}>
           <div className="techstack-content">
             <div className="techstack-heading">
-              <h5 style={{ marginLeft: "200px", fontWeight: "bold" }}>Tech Stack</h5>
+              <h5 style={{ fontWeight: "bold" }}>Tech Stack</h5>
             </div>
             <div className="techstack-text" style={{ marginTop: "50px"}}>
               <p>
@@ -25,9 +25,9 @@ function TechStack() {
             </div>
           </div>
         </Col>
-        <Col xs={6} style={{marginTop: "70px"}}>
+        <Col sm={6} style={{marginTop: "70px"}}>
           <Row>
-            <Col xs={4}>
+            <Col sm={4}>
               <div className="tech-container">
                 <div className="technology">
                   <div className="icon">
@@ -51,7 +51,7 @@ function TechStack() {
                 </div>
               </div>
             </Col>
-            <Col xs={4}>
+            <Col sm={4}>
                 <div className="tech-container">
                 <div className="technology">
                   <div className="icon">
@@ -68,7 +68,7 @@ function TechStack() {
                 </div>
                 </div>
             </Col>
-            <Col xs={4}>
+            <Col sm={4}>
             <div className="tech-container">
                 <div className="technology">
                   <div className="icon">

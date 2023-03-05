@@ -10,10 +10,10 @@ function MyWork() {
   return (
     <Container style={{marginTop: "100px"}} id='my-work'>
       <Row>
-        <Col xs={6}>
+        <Col sm={6} id="work-so-far">
           <Row>
-            <Col xs={6}>
-              <div className="work-so-far">
+            <Col sm={6} style={{ marginTop: "10px"}}>
+              <div className="work-so-far" >
                 <div>
                   <Card style={{ backgroundColor: "#fff" }}>
                     <Card.Img variant="top" src={codetej} />
@@ -56,7 +56,7 @@ function MyWork() {
                 </div>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col sm={6} style={{ marginTop: "10px"}}>
               <div className="work-so-far">
                 <div>
                   <Card style={{ backgroundColor: "#fff" }}>
@@ -102,10 +102,10 @@ function MyWork() {
             </Col>
           </Row>
         </Col>
-        <Col xs={6}>
+        <Col sm={6}  id="mywork-content">
           <div className="mywork-content">
             <div className="mywork-heading">
-              <h5 style={{ marginLeft: "200px", fontWeight: "bold" }}>
+              <h5 style={{ fontWeight: "bold" }}>
                 My Work
               </h5>
             </div>
