@@ -12,9 +12,9 @@ function NavigationBar() {
         {/* <Nav className="me-auto">
             <Nav.Link style={{ fontWeight: "bolder", color: "#000"}} >TEJAS HATLE</Nav.Link>
           </Nav> */}
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" >
           
-          <Nav>
+          <Nav  className="justify-content-end" style={{ width: "100%"}}>
             <Nav.Link href='#about'>About</Nav.Link>
             <Nav.Link href='#tech-stack'>Tech Stack</Nav.Link>
             <Nav.Link href='#my-work'>My Work</Nav.Link>
